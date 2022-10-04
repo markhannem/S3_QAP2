@@ -1,0 +1,86 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SUBSCRIBE</title>
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 50;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Jost", sans-serif;
+        list-style: none;
+        text-decoration: none;
+        scroll-behavior: smooth;
+      }
+      body {
+        justify-content: center;
+        background: linear-gradient(to bottom, #52a8e2 0%, #16228f 100%);
+      }
+      h1,
+      h2,
+      h3 {
+        justify-content: center;
+        text-align: center;
+        color: antiquewhite;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .btn {
+        background-color: #4c66af;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 3px;
+      }
+      .btn:hover {
+        cursor: pointer;
+      }
+    </style>
+    <h1>Become a member?</h1>
+    <h2>Click the button to join below!</h2>
+    <div class="container">
+      <input
+        class="btn"
+        type="button"
+        value="JOIN NOW!"
+        onclick="window.alert('Sorry The Club is Full...')"
+      />
+    </div>
+    <div class="container">
+      <input
+        class="btn"
+        type="button"
+        value="Home"
+        onclick="window.location.replace('./')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="About"
+        onclick="window.location.replace('./about')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Contact"
+        onclick="window.location.replace('./contact')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Products"
+        onclick="window.location.replace('./prods')"
+      />
+    </div>
+  </body>
+</html>

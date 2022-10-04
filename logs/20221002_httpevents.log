@@ -1,0 +1,10 @@
+20221002	16:08:45	information	/	the home page was visited.	6748e73b-7fc9-4321-a044-626e5a63aa88
+20221002	16:08:45	error	/favicon.ico	a routing error occured for the /favicon.ico route.	57f68335-37b5-4951-b5c4-e6e5bad3d190
+20221002	16:50:03	information	/	the home page was visited.	ab2f568f-4852-46a9-91a6-6e0dbf8bf981
+20221002	16:50:04	error	/favicon.ico	a routing error occured for the /favicon.ico route.	23d9a1e2-0b2e-4d7d-93fd-66c0d5dc322d
+20221002	16:50:09	information	/	the home page was visited.	18e844be-f43e-4a52-8ab6-d0275d6dbc9d
+20221002	16:50:10	information	/	the home page was visited.	ea645aa2-57aa-4372-90f7-728bed4e8771
+20221002	16:53:45	information	/	the home page was visited.	c01632ec-3bd5-4685-8e86-7f2209b8993c
+20221002	16:53:51	information	/about	the about page was visited.	69a7d727-4332-4278-b3b2-6cc1027bbd4a
+20221002	16:55:08	information	/about	the about page was visited.	1178ed23-1208-49bd-ad8c-72599b56ecab
+20221002	16:55:10	information	/	the home page was visited.	ddf4ac2e-2e6c-49d3-bef7-32a7cc170053

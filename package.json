@@ -1,0 +1,22 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Hannem",
+  "license": "ISC",
+  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prawstho/Week4.git"
+  },
+  "homepage": "",
+  "description": "",
+  "dependencies": {
+    "date-fns": "2.28.0",
+    "everyday-fun": "^1.1.0",
+    "uuid": "8.3.2"
+  }
+}

@@ -1,0 +1,94 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CONTACT</title>
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 50;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Jost", sans-serif;
+        list-style: none;
+        text-decoration: none;
+        scroll-behavior: smooth;
+      }
+      body {
+        justify-content: center;
+        background-color: #d50000;
+        background-image: repeating-linear-gradient(
+            45deg,
+            rgba(0, 0, 0, 0.8),
+            rgba(0, 0, 0, 0.8) 100px,
+            transparent 0px,
+            transparent 200px
+          ),
+          repeating-linear-gradient(
+            -45deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5) 100px,
+            transparent 0px,
+            transparent 200px
+          );
+      }
+      h1,
+      h2,
+      h3 {
+        justify-content: center;
+        text-align: center;
+        color: aliceblue;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .btn {
+        background-color: #4c66af;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 3px;
+      }
+
+      .btn:hover {
+        cursor: pointer;
+      }
+    </style>
+    <h1>My Contacts</h1>
+    <h2>Phone Number: 709-555-1234</h2>
+    <h2>Email: mark.hannem@keyin.com</h2>
+    <div class="container">
+      <input
+        class="btn"
+        type="button"
+        value="Home"
+        onclick="window.location.replace('./')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="About"
+        onclick="window.location.replace('./about')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Subscribe"
+        onclick="window.location.replace('./subscribe')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Products"
+        onclick="window.location.replace('./prods')"
+      />
+    </div>
+  </body>
+</html>

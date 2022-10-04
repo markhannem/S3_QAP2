@@ -1,0 +1,38 @@
+1.	How many hours did it take you to complete this assessment? 
+    (Please keep try to keep track of how many hours you have spent working on each individual part of this assessment as best you can 
+    - an estimation is fine; we just want a rough idea.)
+
+    ANSWER1
+    Task1: ~ 1hr + another 1hr for understanding and watching videos on the topic
+    Task2: ~ 2hrs + another 1hr for understanding and watching videos on the topic
+    Task3: ~ 5hrs + another 2hrs, maybe more, for research about npm packages and 
+
+2.	What online resources you have used? (My lectures, YouTube, Stack overflow etc.)
+
+    ANSWER2
+    Youtube, Lectures , and Google
+
+3.	Did you need to ask any of your friends in solving the problems. 
+    (If yes, please mention name of the friend. They must be amongst your class fellows.)
+
+    ANSWER3 
+    yes, David, Chris, Neil and Will
+
+4.	Did you need to ask questions to any of your instructors? If so, 
+    how many questions did you ask (or how many help sessions did you require)?
+
+    ANSWER4
+    No
+
+5.	Rate (subjectively) the difficulty of each question from your own perspective, 
+    and whether you feel confident that you can solve a similar but different problem requiring 
+    some of the same techniques in the future now that you’ve completed this one.
+
+    ANSWER5
+    Task1: 3/10 Difficulty, Made a web server and used the switch statement for routing purposes, understand now after doing the QAP how the routing, request and response are working
+    Task2: 3/10 Difficulty, Using the filsystem module in node you can display the html files from my pages folder with using request and response
+    Task3: 5/10 Difficulty, Took your code and understood how its writing the log files and creating new ones every day. But could not get the npm package "everyday-fun" to use the JSON data so i can configure it to use in html
+
+
+
+

@@ -1,0 +1,91 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRODUCTS</title>
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 50;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Jost", sans-serif;
+        list-style: none;
+        text-decoration: none;
+        scroll-behavior: smooth;
+      }
+      body {
+        justify-content: center;
+        background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+        background-size: 400% 400%;
+        animation: gradient 15s ease infinite;
+      }
+
+      @keyframes gradient {
+        0% {
+          background-position: 0% 50%;
+        }
+        50% {
+          background-position: 100% 50%;
+        }
+        100% {
+          background-position: 0% 50%;
+        }
+      }
+      h1,
+      h2,
+      h3 {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .btn {
+        background-color: #4c66af;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 3px;
+      }
+      .btn:hover {
+        cursor: pointer;
+      }
+    </style>
+    <h1>View Our Amazing Products</h1>
+    <div class="container">
+      <input
+        class="btn"
+        type="button"
+        value="Home"
+        onclick="window.location.replace('./')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="About"
+        onclick="window.location.replace('./about')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Contact"
+        onclick="window.location.replace('./contact')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Subscribe"
+        onclick="window.location.replace('./subscribe')"
+      />
+    </div>
+  </body>
+</html>

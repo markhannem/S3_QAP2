@@ -1,0 +1,128 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABOUT</title>
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 50;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Jost", sans-serif;
+        list-style: none;
+        text-decoration: none;
+        scroll-behavior: smooth;
+      }
+      body {
+        justify-content: center;
+        background: radial-gradient(
+              1.5em 6.28571em at 1.95em,
+              rgba(255, 255, 255, 0) 50%,
+              rgba(255, 255, 255, 0.25) 50%,
+              rgba(255, 255, 255, 0.25) 55%,
+              rgba(255, 255, 255, 0) 55%
+            )
+            0 0,
+          radial-gradient(
+              1.5em 6.28571em at -0.45em,
+              rgba(255, 255, 255, 0) 50%,
+              rgba(255, 255, 255, 0.25) 50%,
+              rgba(255, 255, 255, 0.25) 55%,
+              rgba(255, 255, 255, 0) 55%
+            )
+            1.5em 5.5em,
+          radial-gradient(
+              2.3em 4.57143em at 2.99em,
+              rgba(255, 255, 255, 0) 50%,
+              rgba(255, 255, 255, 0.3) 50%,
+              rgba(255, 255, 255, 0.3) 55%,
+              rgba(255, 255, 255, 0) 55%
+            )
+            0 0,
+          radial-gradient(
+              2.3em 4.57143em at -0.69em,
+              rgba(255, 255, 255, 0) 50%,
+              rgba(255, 255, 255, 0.3) 50%,
+              rgba(255, 255, 255, 0.3) 55%,
+              rgba(255, 255, 255, 0) 55%
+            )
+            2.3em 4em,
+          radial-gradient(
+              3.5em 6.28571em at 4.55em,
+              rgba(255, 255, 255, 0) 50%,
+              rgba(255, 255, 255, 0.25) 50%,
+              rgba(255, 255, 255, 0.25) 55%,
+              rgba(255, 255, 255, 0) 55%
+            )
+            0 0,
+          radial-gradient(
+              3.5em 6.28571em at -1.05em,
+              rgba(255, 255, 255, 0) 50%,
+              rgba(255, 255, 255, 0.25) 50%,
+              rgba(255, 255, 255, 0.25) 55%,
+              rgba(255, 255, 255, 0) 55%
+            )
+            3.5em 5.5em,
+          radial-gradient(#15ffa5, #00ced1);
+        background-color: mediumspringgreen;
+        background-size: 1.5em 11em, 1.5em 11em, 2.3em 8em, 2.3em 8em,
+          3.5em 11em, 3.5em 11em, 100% 100%;
+        background-repeat: repeat;
+      }
+      h1,
+      h2,
+      h3 {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .btn {
+        background-color: #4c66af;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 3px;
+      }
+      .btn:hover {
+        cursor: pointer;
+      }
+    </style>
+    <h1>About Me</h1>
+    <div class="container">
+      <input
+        class="btn"
+        type="button"
+        value="Home"
+        onclick="window.location.replace('./')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Contact"
+        onclick="window.location.replace('./contact')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Subscribe"
+        onclick="window.location.replace('./subscribe')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Products"
+        onclick="window.location.replace('./prods')"
+      />
+    </div>
+  </body>
+</html>

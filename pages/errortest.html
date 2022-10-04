@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error Test</title>
+  </head>
+  <body>
+    <style>
+      * {
+        padding: 50;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: "Jost", sans-serif;
+        list-style: none;
+        text-decoration: none;
+        scroll-behavior: smooth;
+        background-color: lightgreen;
+      }
+      body {
+        justify-content: center;
+      }
+      h1,
+      h2,
+      h3 {
+        justify-content: center;
+        text-align: center;
+      }
+
+      .container {
+        text-align: center;
+      }
+
+      .btn {
+        background-color: #4c66af;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 3px;
+      }
+
+      .btn:hover {
+        cursor: pointer;
+      }
+    </style>
+    <h1>Test Some Errors</h1>
+    <h2>Click the buttons below to Test!!!</h2>
+    <div class="container">
+      <input
+        class="btn"
+        type="button"
+        value="Home"
+        onclick="window.location.replace('./')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Error: 404"
+        onclick="window.location.replace('./notalink')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Error: 301"
+        onclick="window.location.replace('./contact-me')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="Error: 304"
+        onclick="window.location.replace('./refresh')"
+      />
+      <input
+        class="btn"
+        type="button"
+        value="DO NOT ENTER"
+        onclick="window.location.replace('./forbidden')"
+      />
+    </div>
+  </body>
+</html>
